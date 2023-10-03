@@ -28,7 +28,7 @@ const GamePage = () => {
           </div>
         </div>
 
-        <div className="container grid grid-cols-2 gap-2 borderContain">
+        <div className="container flex flex-col gap-2 borderContain sm:flex-row">
           <div className="m-4">
             <iframe
               width="350"
@@ -58,7 +58,7 @@ const GamePage = () => {
           </div>
         </div>
 
-        <div className="container grid grid-cols-2 gap-2 borderContain">
+        <div className="container flex flex-col gap-2 borderContain sm:flex-row">
           <div className="m-7">
             <p>
               Skuz is a strategic card game that will allow you to expereince
